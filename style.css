@@ -1,0 +1,298 @@
+/* colors
+22577a
+38a3a5
+
+
+c7f9cc
+*/
+
+teste {
+    background-color: #22577a ;
+    background-color: #38a3a5 ;
+    background-color: #57cc99 ;
+    background-color: #80ed99 ;
+    background-color: #c7f9cc ;
+
+}
+
+mark {
+    color: white;
+    background-color: #38a3a5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: poppins;
+    margin-inline: 200px;
+    color: #444;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 5vw;
+    text-align: justify;
+}
+
+
+
+header {
+    transition: all 0.5s ease;
+    text-align: center;
+    margin-top: -16px;
+    background-color: #22577a;
+    margin-inline: -250px;
+}
+
+header ul li {
+    display: inline-block;
+    padding-inline: 20px;
+    
+}   
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    transition-delay: 0.1s;
+    font-size: 30px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+
+footer {
+    background-color: #22577a;
+    color: white;
+    text-align: center;
+    margin-inline: -250px;
+    padding: 20px;
+}
+
+section {
+    background-color: aliceblue;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 30px;
+    text-indent: 12px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+    margin-bottom: 20px;
+
+    
+}
+
+section h1 {
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+
+figure {
+    background-color: #57cc99 ;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+}
+
+figure img {
+    width: 75%;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+    border-radius: 10px;
+}
+
+figcaption {
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+
+.sobreBotao {
+    width: 25%;
+    float:left
+    
+    
+}
+.botao {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botao a {
+
+    
+    background-color: #80ed99;
+    padding: 1vh ;
+    border-radius: 10px;
+    /* width: 100%; */
+    font-size: 40px;
+    color: #22577a;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    
+    
+    /* display:flex; */
+    /* margin-inline: 500px; */
+    transition-delay: 0.1s;
+    margin-block: 40px;
+    
+    
+}
+
+.botao a:hover {
+    font-size: 43px;
+    
+}
+
+.card-conteudo {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.card {
+    width: 49%;
+    float: left;
+}
+
+
+.botaoServ {
+    background-color: #38a3a5;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    
+}
+.botaoServ:hover {
+    font-size: 22px;
+}
+
+
+
+form, input, select {
+    font-size: 25px;
+}
+
+.botaoform {
+    background-color: #38a3a5;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+     
+}
+.botaoform a {
+    text-decoration: none;
+   transition: all 0.5s ease;
+    color: #fff;
+}
+.botaoform a:hover {
+    font-size: 32px;
+}
+
+.planopai {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+   
+}
+.plano {
+    width: 50%;
+     gap: 20px;
+    float: left;
+}
+
+
+@media only screen and (min-width:600px) and (max-width:1500px) {
+    .card {
+        width: 100%;
+        
+    }
+    .card-conteudo {
+        display:grid;
+    }
+    
+    
+    .sobreBotao {
+        width: 100%;
+        /* float:left; */
+        align-items: center;
+       justify-content: center; 
+    }
+    .botao {
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        
+        
+    }
+    .planopai {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        
+       
+    }
+    .plano {
+        width: 100%;
+         gap: 20px;
+        
+    }
+    
+    body {
+        margin-inline: 50px;
+    }
+
+/* 
+    .botao a {
+        font-size: 10px;
+    } */
+    /* h1 {
+        font-size: 10vw;
+        text-align: left;
+    } */
+}
+
+@media only screen and (max-width:600px) {
+   
+    .sobreBotao {
+        width: 80%;
+        /* float:left; */
+        
+        
+    }
+    .botao {
+        width: 100%;
+        display: grid;
+        /* gap: 20px; */
+        /* justify-content: space-evenly; */
+    }
+
+    .botao a {
+        font-size: 20px;
+    }
+
+
+}
+
+
