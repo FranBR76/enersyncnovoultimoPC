@@ -47,7 +47,7 @@
     </select>
     <br>
     <br>
-    <label for="">Qual a porcetagem da bateria do seu veículo na hora de partir?</label>
+    <label for="">Qual a porcentagem da bateria do seu veículo na hora de partir?</label>
     <br>
     <select name="" id="">
         <option value="%">Escolha Aqui</option>
