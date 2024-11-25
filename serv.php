@@ -26,7 +26,7 @@
         <li>Direito a 1 carregamento gratuito a cada mês.</li>
         <li>Acesso a carga super-rápida, quando disponível.</li>
     </ul>
-    <a class="botaoServ" href="#">Assine agora</a>
+    <a class="botaoServ" href="plano3.php">Assine agora</a>
     <br><br>
 </section>
 
