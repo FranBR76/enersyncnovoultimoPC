@@ -6,15 +6,15 @@
 </h1>
 
 <section>
-    <h2>A EnerSync é uma Startup do ramo de EnergyTech, com objetivo de solucionar a dor dos proprietários de veículos elétricos, que gostariam de viajar e que pensam "Meu carro consegue terminar a viagem com essa porcentagem de bateria?" ou "Será que está muito cheio esse posto de carregmento?" ou ainda "Quantas vezes eu precisarei parar? Qual seria o valor?" </h2>
+    <h2>A EnerSync é uma Startup do ramo de EnergyTech, com objetivo de solucionar a dor dos proprietários de veículos elétricos, que gostariam de viajar e que pensam "Meu carro consegue terminar a viagem com essa porcentagem de bateria?" ou "Será que está muito cheio esse posto de carregamento?" ou ainda "Quantas vezes eu precisarei parar? Qual seria o valor?" </h2>
     
 
 </section>
 
-    <figure>
+    <!-- <figure>
         <img src="img/logo.png" alt="logo">
         <figcaption>Logo da Startup </figcaption>
-    </figure>
+    </figure> -->
 
 <div class="card-conteudo">
     <div class="card">

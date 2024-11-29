@@ -6,6 +6,17 @@
 c7f9cc
 */
 
+.logoheader {
+    position: absolute;
+    /* float: left; */
+    font-size: 25px;
+    font-weight: bold;
+    /* border-radius: 20px; */
+    margin-top: 20px;
+    margin-left: -880px;
+    /* padding-top: 14px; */
+}
+
 teste {
     background-color: #22577a ;
     background-color: #38a3a5 ;
@@ -50,6 +61,7 @@ header {
     transition: all 0.5s ease;
     text-align: center;
     margin-top: -16px;
+    
     background-color: #22577a;
     margin-inline: -250px;
 }
@@ -57,7 +69,7 @@ header {
 header ul li {
     display: inline-block;
     padding-inline: 20px;
-    
+    padding-top: 10px;
 }   
 
 header a {

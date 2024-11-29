@@ -14,6 +14,7 @@
 
 </head>
 <header>
+<mark class="logoheader">EnerSync</mark>
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
